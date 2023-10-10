@@ -1,0 +1,133 @@
+body {
+    background-image: url(./assets/images/machine.jpg);
+    background-size: cover;
+    color: #C1D8C3;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flex-item {
+    flex-basis: 1;
+    max-width: 500px;
+}
+
+.section-space {
+    margin-bottom: 130px;
+}
+
+h1, h2, h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'PT Serif', serif;
+    
+}
+
+h1, h2 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-family: 'Instrument Sans', sans-serif;
+    line-height: 1.5;
+}
+
+
+/* Hero */
+.alignment, #sub-align {
+    text-align: center;
+}
+
+#profile-image {
+    margin: 30px 0;
+    border-radius: 50%;
+}
+
+
+/* About Me */
+#sub-align {
+    margin-bottom: 20px;
+}
+
+.left-align {
+    float: left;
+    clear: both;
+}
+
+#space {
+    margin-bottom: 50px;
+}
+
+
+/* Contact Me */
+.button-link {
+    color: black;  
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    background-color: #FF4B91;
+    padding: 10px 10px;
+}
+
+button:hover {
+    background-color: #C1D8C3;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+}
+
+a {
+    margin-right: 20px;
+}
+
+#social-icons {
+    background-color: #C1D8C3;
+    margin-top: 30px;
+    padding: 40px;
+    color: black;
+    border: none;
+}
+
+/* Contact Me Page */
+#left-gap {
+    margin-left: 20px;
+}
+
+@media (max-width: 480px) {
+    .left-align {
+        height: 100px;
+    }
+
+    body {
+        font-size: 10px;
+    }
+
+    h1, h2 {
+        font-size: 1.5rem;
+        font-weight: normal;
+    }
+
+    .flex-item {
+        max-width: 250px;
+    }
+
+    #profile-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    #social-icons {
+    padding: 20px;
+    }
+
+}
